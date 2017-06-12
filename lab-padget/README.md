@@ -111,6 +111,7 @@ In [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) (Terminal) enter the 
 ## Resources
 * [Hash Table](https://en.wikipedia.org/wiki/Hash_table)
 * [Linked List](https://en.wikipedia.org/wiki/Linked_list)
+* [Doubly Linked List](https://en.wikipedia.org/wiki/Linked_list#Doubly_linked_list)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/mmpadget/) file for details.
