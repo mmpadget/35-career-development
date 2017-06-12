@@ -114,7 +114,7 @@ In [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) (Terminal) enter the 
 * [Doubly Linked List](https://en.wikipedia.org/wiki/Linked_list#Doubly_linked_list)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/mmpadget/) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/mmpadget/35-career-development/blob/lab-35/lab-padget/LICENSE) file for details.
 
 ## Acknowledgments
 * Code Fellows
