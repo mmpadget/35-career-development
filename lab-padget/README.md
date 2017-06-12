@@ -37,10 +37,14 @@ Initializing package.json
 ```
 npm init
 ```
+Dependencies:
+```
+npm i -S webpack
+```
 
 Dev Dependencies:
 ```
-npm i -D angular-mocks chai karma karma-chrome-launcher karma-mocha karma-mocha-reporter karma-phantomjs-launcher karma-webpack mocha
+npm i -D angular-mocks chai karma karma-chrome-launcher karma-mocha karma-mocha-reporter karma-phantomjs-launcher karma-webpack mocha webpack-dev-server
 ```
 
 Add the following to package.json:
@@ -48,7 +52,9 @@ Add the following to package.json:
 "scripts": {
   "test": "karma start --single-run",
   "test-watch": "karma",
-}
+  "build": "webpack",
+  "build-watch": "webpack-dev-server --inline --hot"
+},
 ```
 
 ### Dependencies
@@ -56,7 +62,7 @@ The result of installation above:
 
 ```
 "dependencies": {
-
+  "webpack": "^2.6.1"
 },
 "devDependencies": {
   "angular-mocks": "^1.6.4",
@@ -68,7 +74,8 @@ The result of installation above:
   "karma-phantomjs-launcher": "^1.0.4",
   "karma-webpack": "^2.0.3",
   "mocha": "^3.4.2",
-}
+  "webpack-dev-server": "^2.4.5"
+},
 ```
 
 ### Test Setup
